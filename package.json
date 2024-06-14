@@ -1,0 +1,26 @@
+{
+  "name": "lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "handlebars": "^4.7.8",
+    "hbs": "^4.2.0",
+    "koa": "^2.15.3",
+    "koa-handlebars": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.3",
+    "selenium-webdriver": "^4.21.0",
+    "session": "^0.1.0",
+    "tough-cookie": "^4.1.4"
+  }
+}

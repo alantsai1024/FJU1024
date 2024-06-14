@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輔大課程轉課表</title>
+</head>
+
+<body>
+    <dialog open>
+        <form action="/login" method="post">
+            <label for="">LDAP帳號</label>
+            <input type="text" name="accountnumber" id="accountnumber" maxlength="9">
+            <label for="">LDAP密碼</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="登入">
+        </form>
+        {{#if message}}<div style="position:absolute;background: pink;color:red;font-size:30px;">{{message}}</div>{{/if}}
+    </dialog>
+    
+
+</body>
+
+</html>
